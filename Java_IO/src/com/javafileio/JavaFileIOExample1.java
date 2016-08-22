@@ -5,8 +5,8 @@ import java.io.FileOutputStream;
 public class JavaFileIOExample1 {
 	public static void main(String args[]) {
 		try {
-			FileOutputStream fout = new FileOutputStream("souro.txt");
-			String s = "Learn for passion not for duty";
+			FileOutputStream fout = new FileOutputStream("demo.txt");
+			String s = "Demo for IntelliJ Git Integration";
 			byte b[] = s.getBytes();
 			fout.write(b);
 			fout.close();
