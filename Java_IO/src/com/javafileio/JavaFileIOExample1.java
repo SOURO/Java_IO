@@ -9,8 +9,8 @@ public class JavaFileIOExample1 {
 			FileOutputStream fout = new FileOutputStream("demo.txt");
 			String s = "Doing changes for branch: temp_branch";
 			/*Converting string to byte and then storing it into byte array */
-			byte b[] = s.getBytes();
-			fout.write(b);
+			byte c[] = s.getBytes();
+			fout.write(c);
 			fout.close();
 			System.out.println("success...");
 		} catch (Exception e) {
