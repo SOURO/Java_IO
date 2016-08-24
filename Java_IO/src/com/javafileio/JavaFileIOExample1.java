@@ -7,7 +7,7 @@ public class JavaFileIOExample1 {
 		try {
 			/* Creating FileOutputStream object here to write in a file*/
 			FileOutputStream fout = new FileOutputStream("demo.txt");
-			String s = "Doing changes for branch: temp_branch2 and it is for rebase demo";
+			String s = "Doing changes for squash commit";
 			/*Converting string to byte and then storing it into byte array */
 			byte c[] = s.getBytes();
 			fout.write(c);
